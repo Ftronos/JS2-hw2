@@ -1,7 +1,8 @@
 "use strict";
 
 var button = document.getElementById('button');
-document.getElementById('check-response').addEventListener("click", function () {
+
+var tick = setInterval(function() {
     // Формируем ajax запрос
     var xhr = new XMLHttpRequest();
     xhr.open('POST', 'http://127.0.0.1:8080/result.json');
@@ -24,4 +25,4 @@ document.getElementById('check-response').addEventListener("click", function () 
             }
         }
     }
-})
+}, 100);
