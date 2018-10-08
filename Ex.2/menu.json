@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Каталог",
+    "href": "catalog"
+  },
+  {
+    "title": "О компании",
+    "href": "about"
+  },
+  {
+    "title": "Новости",
+    "href": "news"
+  },
+  {
+    "title": "Акции",
+    "href": "stocks"
+  },
+  {
+    "title": "Личный кабинет",
+    "href": "cabinet"
+  },
+  {
+    "title": "Контакты",
+    "href": "contacts"
+  }
+]
