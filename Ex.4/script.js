@@ -13,10 +13,8 @@ document.getElementById('check-response').addEventListener("click", function () 
             if (xhr.status === 200) {
                 // Парсим json в объекты
                 var items = JSON.parse(xhr.responseText);
-                console.log(items);
                 // Проходимся по всем объектам
                 items.forEach(function (item) {
-                    console.log(item.result);
                     if (item.result === "success") {
                         button.style.backgroundColor = 'green';
                     } else {
