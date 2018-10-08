@@ -2,7 +2,7 @@
 
 var button = document.getElementById('button');
 
-var tick = setInterval(function() {
+var timeTick = setInterval(function() {
     // Формируем ajax запрос
     var xhr = new XMLHttpRequest();
     xhr.open('POST', 'http://127.0.0.1:8080/result.json');
