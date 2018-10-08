@@ -26,4 +26,4 @@ document.getElementById('check-response').addEventListener("click", function () 
             }
         }
     }
-});
+})
