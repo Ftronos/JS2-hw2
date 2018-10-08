@@ -89,10 +89,4 @@ window.addEventListener("load", function () {
             }
         }
     }
-
-    // var item1 = new GalleryItem('photo', '/');
-    // var item2 = new GalleryItem('photo', '/news');
-    // var item3 = new GalleryItem('photo', '/blog');
-
-
 });
